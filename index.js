@@ -1,4 +1,5 @@
 function roll(){
+	//asf as
   var randomNumber1= Math.floor(Math.random()*6)+1;
   var randomImgSource = "images/dice"+randomNumber1+".png";
   document.querySelector("img.img1").setAttribute("src", randomImgSource);
